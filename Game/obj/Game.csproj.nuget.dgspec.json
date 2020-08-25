@@ -4,14 +4,14 @@
     "/home/barney/RiderProjects/DistantEngine/Game/Game.csproj": {}
   },
   "projects": {
-    "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj": {
+    "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj",
-        "projectName": "Engine",
-        "projectPath": "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj",
+        "projectUniqueName": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
+        "projectName": "DistantEngine",
+        "projectPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
         "packagesPath": "/home/barney/.nuget/packages/",
-        "outputPath": "/home/barney/RiderProjects/DistantEngine/Engine/obj/",
+        "outputPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/barney/.nuget/NuGet/NuGet.Config"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj": {
-                "projectPath": "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj"
+              "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj": {
+                "projectPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj"
               }
             }
           }

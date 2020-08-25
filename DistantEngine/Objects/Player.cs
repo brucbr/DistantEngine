@@ -1,8 +1,9 @@
 using System;
 using System.Diagnostics;
-using DistantLands.Graphics;
+using DistantEngine.Graphics;
+using DistantEngine.Input;
 
-namespace DistantLands.Objects
+namespace DistantEngine.Objects
 {
     #region Player Object
     
@@ -12,10 +13,10 @@ namespace DistantLands.Objects
     public class Player : GameObject
     {
         public GameObject Entity;
-        public readonly DistantLands.Input.Input PlayerInput;
+        public readonly Input.Input PlayerInput;
         public Player(string textureSheetPath, int xPlayPos, int yPlayPos, int refH, int refW) : base(textureSheetPath, xPlayPos, yPlayPos, refH, refW)
         {
-            PlayerInput = new DistantLands.Input.Input();
+            PlayerInput = new Input.Input();
             WinPass.objects.Add(this);
         }
         

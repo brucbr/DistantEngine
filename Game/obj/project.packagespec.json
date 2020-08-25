@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp3.1": {
         "projectReferences": {
-          "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj": {
-            "projectPath": "/home/barney/RiderProjects/DistantEngine/Engine/Engine.csproj"
+          "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj": {
+            "projectPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj"
           }
         }
       }

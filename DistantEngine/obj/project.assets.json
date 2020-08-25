@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "DistantEngine/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/DistantEngine.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DistantEngine.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "DistantEngine/1.0.0": {
-      "type": "project",
-      "path": "../DistantEngine/DistantEngine.csproj",
-      "msbuildProject": "../DistantEngine/DistantEngine.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "DistantEngine >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "/home/barney/.nuget/packages/": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/barney/RiderProjects/DistantEngine/Game/Game.csproj",
-      "projectName": "Game",
-      "projectPath": "/home/barney/RiderProjects/DistantEngine/Game/Game.csproj",
+      "projectUniqueName": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
+      "projectName": "DistantEngine",
+      "projectPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
       "packagesPath": "/home/barney/.nuget/packages/",
-      "outputPath": "/home/barney/RiderProjects/DistantEngine/Game/obj/",
+      "outputPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/barney/.nuget/NuGet/NuGet.Config"
@@ -49,11 +30,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj": {
-              "projectPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Data;
 using System.Diagnostics;
-using DistantLands.Graphics;
-using DistantLands.Input;
+using DistantEngine.Graphics;
 using SDL2;
 
-namespace DistantLands.Objects
+namespace DistantEngine.Objects
 {
     #region GameObject class
     /// <summary>

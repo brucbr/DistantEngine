@@ -4,85 +4,62 @@
     <projectFile>Game/Game.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8987fb48-343b-49db-b591-7aceca1c000e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistantEngine.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DistantEngine.sln.DotSettings.user" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Engine.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Graphics/Texture.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Graphics/TextureMap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Graphics/Window.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Input/Input.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Objects/Enemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Objects/GameObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Objects/Item.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Objects/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/Physics/Collision.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/Engine.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/Engine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/Engine.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/SDL2-CS.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Engine.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Engine.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/Engine.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Engine/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/Game.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/assets/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Engine.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Engine.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Game" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Game.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Game.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Game.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Game.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/Game.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/SDL2-CS.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/bin/Debug/netcoreapp3.1/assets/player.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Game.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Game.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/Game.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Game/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SDL2-CS.dll" afterDir="false" />
+    <list default="true" id="8987fb48-343b-49db-b591-7aceca1c000e" name="Default Changelist" comment="Initial Commit. New Repository due to new name and rider IDE complaining.">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DistantEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistantEngine.sln" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Engine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/DistantEngine.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Graphics/Texture.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Graphics/Texture.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Graphics/TextureMap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Graphics/TextureMap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Graphics/Window.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Graphics/Window.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Input/Input.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Input/Input.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Objects/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Objects/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Objects/GameObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Objects/GameObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Objects/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Objects/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Objects/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Objects/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/Physics/Collision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/Physics/Collision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/Engine.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/bin/Debug/netcoreapp3.1/Engine.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/Engine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/bin/Debug/netcoreapp3.1/DistantEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/Engine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/bin/Debug/netcoreapp3.1/DistantEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/bin/Debug/netcoreapp3.1/SDL2-CS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/bin/Debug/netcoreapp3.1/SDL2-CS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csproj.CopyComplete" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.csproj.CopyComplete" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Debug/netcoreapp3.1/Engine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Debug/netcoreapp3.1/Engine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Engine.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Engine.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Engine.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Engine.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/Engine.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/Engine.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DistantEngine/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Game.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Game.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/Debug/netcoreapp3.1/Game.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Game/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/brucbr/DistantEngine" />
+      </set>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DistantEngine/Graphics/Texture.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,15 +67,16 @@
         <option value="$PROJECT_DIR$/Engine/Class1.cs" />
         <option value="$PROJECT_DIR$/Game/Game.csproj" />
         <option value="$PROJECT_DIR$/Engine/Physics/Collision.cs" />
-        <option value="$PROJECT_DIR$/Engine/Objects/Item.cs" />
         <option value="$PROJECT_DIR$/Engine/Graphics/Test.cs" />
-        <option value="$PROJECT_DIR$/Engine/Graphics/Texture.cs" />
-        <option value="$PROJECT_DIR$/Engine/Graphics/TextureMap.cs" />
-        <option value="$PROJECT_DIR$/Engine/Objects/Player.cs" />
         <option value="$PROJECT_DIR$/Game/Program.cs" />
-        <option value="$PROJECT_DIR$/Engine/Objects/Enemy.cs" />
         <option value="$PROJECT_DIR$/Engine/Objects/GameObject.cs" />
+        <option value="$PROJECT_DIR$/Engine/Objects/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Engine/Graphics/TextureMap.cs" />
         <option value="$PROJECT_DIR$/Engine/Graphics/Window.cs" />
+        <option value="$PROJECT_DIR$/Engine/Input/Input.cs" />
+        <option value="$PROJECT_DIR$/Engine/Objects/Item.cs" />
+        <option value="$PROJECT_DIR$/Engine/Objects/Player.cs" />
+        <option value="$PROJECT_DIR$/Engine/Graphics/Texture.cs" />
       </list>
     </option>
   </component>
@@ -109,6 +87,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SDL2-CS.dll" />
@@ -147,7 +126,16 @@
       <workItem from="1597821810551" duration="1185000" />
       <workItem from="1598223865156" duration="1677000" />
       <workItem from="1598310059536" duration="9275000" />
+      <workItem from="1598396493088" duration="1090000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit. New Repository due to new name and rider IDE complaining.">
+      <created>1598396793141</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598396793141</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,28 +145,38 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial Commit. New Repository due to new name and rider IDE complaining." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit. New Repository due to new name and rider IDE complaining." />
   </component>
   <component name="WindowStateProjectService">
     <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597822222375">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="497" y="158" width="424" height="491" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1597822222375" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1598323598333">
+    <state x="558" y="297" width="322" height="207" key="Github.ShareDialog" timestamp="1598396573657">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1598323598333" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1598323598332">
+    <state x="558" y="297" width="322" height="207" key="Github.ShareDialog/72.27.1294.741@72.27.1294.741" timestamp="1598396573657" />
+    <state x="456" y="85" width="515" height="631" key="Github.UntrackedFilesDialog" timestamp="1598396611535">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1598323598332" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1598323598332">
+    <state x="456" y="85" width="515" height="631" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1598396611535" />
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1598397551303">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1598323598332" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1598323598333">
+    <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1598397551303" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1598397551303">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1598323598333" />
+    <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1598397551303" />
+    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1598397551302">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1598397551302" />
+    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1598397551303">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1598397551303" />
     <state x="314" y="132" width="800" height="537" key="Rider.ProjectTemplateDialog.Size" timestamp="1597821948156">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -187,5 +185,9 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1598321112711" />
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1598396810322">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="314" y="133" width="800" height="535" key="Vcs.Push.Dialog.v2/72.27.1294.741@72.27.1294.741" timestamp="1598396810322" />
   </component>
 </project>

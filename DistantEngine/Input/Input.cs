@@ -1,5 +1,5 @@
 using SDL2;
-namespace DistantLands.Input
+namespace DistantEngine.Input
 {
     public class Input
     {

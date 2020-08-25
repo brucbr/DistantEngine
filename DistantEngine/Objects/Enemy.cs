@@ -1,4 +1,4 @@
-namespace DistantLands.Objects
+namespace DistantEngine.Objects
 {
     #region EnemyObject
     public class Enemy : GameObject

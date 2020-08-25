@@ -1,7 +1,7 @@
 using System;
 using SDL2;
 
-namespace DistantLands.Graphics
+namespace DistantEngine.Graphics
 {
     public class TextureMap
     {

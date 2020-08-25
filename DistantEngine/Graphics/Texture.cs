@@ -1,10 +1,10 @@
 ﻿#region Using Statements
 using System;
 using SDL2;
-using DistantLands.Objects;
+using DistantEngine.Objects;
 #endregion
 
-namespace DistantLands.Graphics
+namespace DistantEngine.Graphics
 {
     #region Texture
     

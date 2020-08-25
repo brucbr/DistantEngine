@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{AFE86BC3-6B74-4393-A706-8ECB7B347160}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistantEngine", "DistantEngine\DistantEngine.csproj", "{AFE86BC3-6B74-4393-A706-8ECB7B347160}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game", "Game\Game.csproj", "{DE50714F-3B79-4E6D-BE45-79BCC3D5A9F4}"
 EndProject

@@ -2,10 +2,10 @@
 using System;
 using System.Collections.Generic;
 using SDL2;
-using DistantLands.Objects;
+using DistantEngine.Objects;
 #endregion
 
-namespace DistantLands.Graphics
+namespace DistantEngine.Graphics
 {
 #region Window Manager
     public class Window

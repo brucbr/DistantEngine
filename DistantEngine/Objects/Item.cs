@@ -1,7 +1,7 @@
 using System;
 
 
-namespace DistantLands.Objects
+namespace DistantEngine.Objects
 {
     public class Item : GameObject
     {

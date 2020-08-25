@@ -4,14 +4,13 @@
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\Engine\Engine.csproj" />
-    </ItemGroup>
     <ItemGroup>
         <Content Include="assets\*">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\DistantEngine\DistantEngine.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,6 +1,5 @@
-﻿using System;
-using DistantLands.Graphics;
-using DistantLands.Objects;
+﻿using DistantEngine.Graphics;
+using DistantEngine.Objects;
 
 namespace Game
 {
