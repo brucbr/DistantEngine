@@ -1,6 +1,7 @@
 #region Using Statements
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using SDL2;
 using DistantEngine.Objects;
 #endregion
@@ -10,38 +11,44 @@ namespace DistantEngine.Graphics
 #region Window Manager
     public class Window
     {
-        public IntPtr Win;
-        public IntPtr Renderer;
-        public Array Objects;
-        const int Fps = 20;
-        const int FrameDelay = 100 / Fps;
-        uint _frameStart;
-        int _frameTime;
-        public bool Running;
-        SDL.SDL_WindowFlags _flags;
+        private readonly IntPtr _win;
+        private readonly IntPtr _renderer;
+        private const int Fps = 20;
+        private const int FrameDelay = 100 / Fps;
+        private uint _frameStart;
+        private int _frameTime;
+        public readonly bool Running;
+        private readonly SDL.SDL_WindowFlags _flags;
         
         #region Window Constructor DEFAULT
-        public Window(int width, int height, bool fullscreen, string title)
+        /// <summary>
+        /// Default constructor for window.
+        /// </summary>
+        /// <param name="width">Width of window</param>
+        /// <param name="height">Height of window</param>
+        /// <param name="title"></param>
+        public Window(int width, int height, string title)
         {
-            if (fullscreen) { _flags = SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE; }
+            Shared.window = this;
+            _flags = SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE;
             Running = false;
             if (SDL.SDL_Init(SDL.SDL_INIT_VIDEO) == 0)
             {
-                Win = SDL.SDL_CreateWindow(title,
+                _win = SDL.SDL_CreateWindow(title,
                     SDL.SDL_WINDOWPOS_CENTERED,
                     SDL.SDL_WINDOWPOS_CENTERED,
                     width,
                     height,
                     _flags
                     );
-                Renderer = SDL.SDL_CreateRenderer(Win, -1, 0);
-                WinPass.Renderer = Renderer;
+                _renderer = SDL.SDL_CreateRenderer(_win, -1, 0);
+                Shared.Renderer = _renderer;
                 // Check if window and render are still equal to null (IntPtr.Zero)
-                if (Win != IntPtr.Zero)
+                if (_win != IntPtr.Zero)
                 {
-                    // Window true, check render
-                    if (Renderer != IntPtr.Zero)
-                    { Running = true; SDL.SDL_SetRenderDrawColor(Renderer, 0, 255, 0, 255); }
+                    // Window true, check render 
+                    if (_renderer != IntPtr.Zero)
+                    { Running = true; SDL.SDL_SetRenderDrawColor(_renderer, 0, 0, 0, 255); }
                     else { Running = false; }
                 }
                 else { Running = false; }
@@ -51,27 +58,29 @@ namespace DistantEngine.Graphics
         }
         #endregion
         
-        #region Window Constructor position changed
+        #region Window Constructor Elaborate
         public Window(int width, int height, int xPos, int yPos, bool fullscreen, string title)
         {
+            Shared.window = this;
             if (fullscreen) { _flags = SDL.SDL_WindowFlags.SDL_WINDOW_RESIZABLE; }
             Running = false;
             if (SDL.SDL_Init(SDL.SDL_INIT_VIDEO) == 0)
             {
-                Win = SDL.SDL_CreateWindow(title,
+                _win = SDL.SDL_CreateWindow(title,
                     xPos,
                     yPos,
                     width,
                     height,
                     _flags
                 );
-                Renderer = SDL.SDL_CreateRenderer(Win, -1, 0);
+                _renderer = SDL.SDL_CreateRenderer(_win, -1, 0);
+                Shared.Renderer = _renderer;
                 // Check if window and render are still equal to null (IntPtr.Zero)
-                if (Win != IntPtr.Zero)
+                if (_win != IntPtr.Zero)
                 {
                     // Window true, check render
-                    if (Renderer != IntPtr.Zero)
-                    { Running = true; SDL.SDL_SetRenderDrawColor(Renderer, 0, 255, 0, 255); }
+                    if (_renderer != IntPtr.Zero)
+                    { Running = true; SDL.SDL_SetRenderDrawColor(_renderer, 0, 0, 0, 255); }
                     else { Running = false; }
                 }
                 else { Running = false; }
@@ -80,61 +89,105 @@ namespace DistantEngine.Graphics
             else { Running = false; }
         }
         #endregion
+        
+        /// <summary>
+        /// Method. Keep framerate constant
+        /// </summary>
         public void FrameCheck()
         {
             _frameStart = SDL.SDL_GetTicks();
             _frameTime = Convert.ToInt32(SDL.SDL_GetTicks()) - Convert.ToInt32(_frameStart);
             if (FrameDelay > _frameTime) { SDL.SDL_Delay(Convert.ToUInt32(FrameDelay) - Convert.ToUInt32(_frameTime)); }
         }
+        
+        /// <summary>
+        /// Method. Refresh global event listener and check global events.
+        /// </summary>
         public void HandleEvents()
         {
+            SDL.SDL_PollEvent(out SDL.SDL_Event e);
+            Shared.e = e;
+            QuitCheck();
         }
+        
+        /// <summary>
+        /// Method. Update all game objects at each frame.
+        /// </summary>
         public void Update()
         {
-            foreach (GameObject obj in WinPass.objects)
+            foreach (GameObject obj in Shared.objects)
             {
-                if (obj is Player)
-                {
-                    Player player = (Player)obj;
-                    player.Update();
-                    player.PlayerInput.QuitCheck();
-                    player = null;
-                } else if (obj is Enemy)
-                {
-                    Enemy enemy = (Enemy) obj;
-                    enemy = null;
-                } else if (obj is Item)
-                {
-                    Item item = (Item) obj;
-                    item = null;
-                }
-                
-
+                obj.Update();
             }
         }
 
+        /// <summary>
+        /// Method. Render everything at each frame.
+        /// </summary>
         public void Render()
         {
-            SDL.SDL_RenderClear(Renderer);
-            foreach (GameObject obj in WinPass.objects)
+            SDL.SDL_RenderClear(_renderer);
+            foreach (GameObject obj in Shared.objects)
             {
-                obj.Render();
+                obj.Draw();
             }
-            SDL.SDL_RenderPresent(Renderer);
+            SDL.SDL_RenderPresent(_renderer);
         }
+        
+        /// <summary>
+        /// Method. Clean window and get ready to quit.
+        /// </summary>
         public void Clean()
         {
-            SDL.SDL_DestroyWindow(Win);
-            SDL.SDL_DestroyRenderer(Renderer);
+            SDL.SDL_DestroyWindow(_win);
+            SDL.SDL_DestroyRenderer(_renderer);
             SDL.SDL_Quit();
+        }
+        
+        /// <summary>
+        /// Method. Check for quit events such as the 'close' window button.
+        /// </summary>
+        public void QuitCheck()
+        {
+            switch (Shared.e.type)
+            {
+                case SDL.SDL_EventType.SDL_QUIT:
+                    SDL.SDL_Quit();
+                    System.Environment.Exit(0);
+                    break;
+            }
+        }
+        
+        /// <summary>
+        /// Method. Reorder all game objects depending on their index value (The smaller the number, the earlier the render.) This allows for a z-index.
+        /// </summary>
+        public void Reorder()
+        {
+            Shared.objects = Shared.objects.OrderBy(obj => obj.ZIndex).ToList<GameObject>();
         }
     }
     #endregion
 
-    public static class WinPass
+    /// <summary>
+    /// Shared variables for window related matters.
+    /// </summary>
+    public static class Shared
     {
+        public static IntPtr Renderer { get; set; } = IntPtr.Zero;
+        public static Window window { get; set; } = null;
+        public static List<GameObject> objects
+        {
+            get => _objects;
+            set => _objects = value;
+        }
 
-        public static IntPtr Renderer = IntPtr.Zero;
-        public static List<GameObject> objects = new List<GameObject>();
+        private static List<GameObject> _objects = new List<GameObject>();
+        private static SDL.SDL_Event _e;
+
+        public static SDL.SDL_Event e
+        {
+            get => _e;
+            set => _e = value;
+        }
     }
 }

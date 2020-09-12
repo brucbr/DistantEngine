@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
+    "projectUniqueName": "C:\\Users\\Barney\\RiderProjects\\DistantEngine\\DistantEngine\\DistantEngine.csproj",
     "projectName": "DistantEngine",
-    "projectPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
-    "outputPath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/obj/",
+    "projectPath": "C:\\Users\\Barney\\RiderProjects\\DistantEngine\\DistantEngine\\DistantEngine.csproj",
+    "outputPath": "C:\\Users\\Barney\\RiderProjects\\DistantEngine\\DistantEngine\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"
@@ -40,7 +40,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
     }
   }
 }

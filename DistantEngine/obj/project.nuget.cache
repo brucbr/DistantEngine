@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "znFwxmxFOaQyLI9x+m8PE7UDzajHCvNIZd4Tql2ayOksJ5IlKvTWgaTr2qJKK+NDOs06HQNYn6x2+uQLS7AMQg==",
+  "dgSpecHash": "KiwU1p0D1AoG3O4ZOyIQEB/25JiCj/f5OkgX0d18AxQQwjWen7GQcz8eyx+r2obZaYqquwhtFw/l6P9GyOTJbQ==",
   "success": true,
-  "projectFilePath": "/home/barney/RiderProjects/DistantEngine/DistantEngine/DistantEngine.csproj",
+  "projectFilePath": "C:\\Users\\Barney\\RiderProjects\\DistantEngine\\DistantEngine\\DistantEngine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1t4263xz1GYop0VJg9CkVg9KcQUonZVWLOexgPk5Vxc0MYo9pUSayyuT4iorMiqbK312G5QxQublvAfRokJfWw==",
+  "dgSpecHash": "9ddCAorov1qF5UpYnPlMyN0pNQrjPeX8gJx0dpcBdwT8CyO0K+Qsu6LMIFL3wNY6khcj3/K/8N62x0/AU3nAXg==",
   "success": true,
-  "projectFilePath": "/home/barney/RiderProjects/DistantEngine/Game/Game.csproj",
+  "projectFilePath": "C:\\Users\\Barney\\RiderProjects\\DistantEngine\\Game\\Game.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
